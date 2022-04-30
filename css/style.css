@@ -144,6 +144,10 @@ html {
     justify-content: center;
 }
 
+.col-main_box img {
+    width: 37.5rem;
+}
+
 /*Textos Box 1*/ 
 
 .col-header_texts .text1 {
@@ -171,9 +175,11 @@ html {
 /* segunda seccion main */
 
 .row-header_blogr {
+    width: 100%;
+    height: 60vh;
     margin-top: 20rem;
     background-image: url(../images/bg-pattern-circles.svg);
-    background-size: 210%;
+    background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -186,7 +192,7 @@ html {
     position: absolute;
     opacity: 1;
     z-index: -1;
-    border-radius: 0px 100px 0px 100px;
+    border-radius: 0px 150px 0px 150px;
 }
 
 .col-header_blogr-img img {
@@ -201,19 +207,22 @@ html {
     text-align: center;
     font-family: var(--fuente-1);
     font-size: 1.6rem;
-    width: 40rem;
+    width: 30rem;
     margin: 0 auto;
     color: var(--neutral-1);
 }
 
 .text-blogr h3 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    margin: 20px;
 }
 
 .text-blogr .parrafo-main {
-    width: 25rem;
-    margin: 0 auto;
+    width: 20rem;
+    margin: 0 auto;  
 }
+
+
 
 
 
