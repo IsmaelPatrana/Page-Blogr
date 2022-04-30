@@ -225,8 +225,14 @@ html {
 }
 
 
+.col-header_laptop {
+    display: flex;
+    justify-content: center;
+}
 
-
+.col-header_laptop img {
+    width: 360px;
+}
 
 @media (min-width: 300px) {
     .nav-header {
