@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primay: hsl(356, 100%, 66%);
+    --primary-2:  hsl(355, 100%, 74%);
+    --primary-3: hsl(208, 49%, 24%);
+    /*neutral colors */
+    --neutral-1: hsl(0, 0%, 100%);
+    --neutral-2: hsl(240, 2%, 79%);
+    --neutral-3: hsl(207, 13%, 34%);
+    --neutral-4: hsl(240, 10%, 16%);
+
+
+}
+
+/*Estilos del header*/
+
+.container-header {
+    
+}
