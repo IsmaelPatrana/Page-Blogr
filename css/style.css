@@ -234,6 +234,33 @@ html {
     width: 360px;
 }
 
+
+/*FOOOOOOTER*/ 
+.container-footer {
+    margin-top: 2rem;
+    border-radius: 0px 80px 0px 0px;
+    background-color: var(--neutral-4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fuente-1);
+}
+
+.col-footer_titulo {
+    margin-top: 4rem;
+}
+
+.container-footer .col-footer {
+    color: var(--neutral-1);
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px;
+}
+
+.container-footer .col-footer li {
+    list-style: none;
+}
+
 @media (min-width: 300px) {
     .nav-header {
         display: none;
