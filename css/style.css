@@ -18,11 +18,59 @@ html {
     --neutral-3: hsl(207, 13%, 34%);
     --neutral-4: hsl(240, 10%, 16%);
 
+    --fuente-1: 'Overpass', sans-serif;
+
 
 }
 
-/*Estilos del header*/
+            /*Estilos del header*/
 
+
+        /*Estilos Generales del contenedor*/
 .container-header {
+    height: 50vh;
+    background-image: url(images/bg-pattern-intro-mobile.svg);
+    background: linear-gradient(180deg, hsla(13, 100%, 72%, 1) 0%, hsla(353, 100%, 62%, 1) 100%);
+    font-family: var(--fuente-1);
+}
+
+            /*Estilos del nav y logo*/
+.row-header {
+    display: flex;
+    flex-direction: column;
     
+
+}
+
+ .row-header .logo-nav {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-top: 20px;
+}
+
+.row-header .logo-nav img {
+    margin: 15px;
+}
+            /*Text del header*/
+.col-header_info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 6rem;
+
+}
+
+
+
+
+
+
+@media (min-width: 300px) {
+    .nav-header {
+        display: none;
+    }
 }
