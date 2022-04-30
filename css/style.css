@@ -174,13 +174,15 @@ html {
 
 /* segunda seccion main */
 
+
+ /* Estilos del contenedor principal */
 .row-header_blogr {
     width: 100%;
-    height: 60vh;
+    min-height: 80vh;
     margin-top: 20rem;
     background-image: url(../images/bg-pattern-circles.svg);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -194,7 +196,7 @@ html {
     z-index: -1;
     border-radius: 0px 150px 0px 150px;
 }
-
+/* Estilos de las colomnas */
 .col-header_blogr-img img {
     width: 100%;
     position: relative;
