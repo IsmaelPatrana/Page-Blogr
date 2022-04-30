@@ -28,10 +28,11 @@ html {
 
         /*Estilos Generales del contenedor*/
 .container-header {
-    height: 50vh;
+    height: 80vh;
     background-image: url(images/bg-pattern-intro-mobile.svg);
     background: linear-gradient(180deg, hsla(13, 100%, 72%, 1) 0%, hsla(353, 100%, 62%, 1) 100%);
     font-family: var(--fuente-1);
+    border-radius: 0px 0px 0px 120px;
 }
 
             /*Estilos del nav y logo*/
@@ -52,19 +53,60 @@ html {
 .row-header .logo-nav img {
     margin: 15px;
 }
-            /*Text del header*/
+ /*Text del header*/
 .col-header_info {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 1.4rem;
     color: white;
     margin-top: 6rem;
+}
 
+.col-header_info h1 {
+    font-size: 3.3rem;
+}
+.col-header_info p {
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
 }
 
 
+
+/* Estilos de los botones */ 
+
+.col-header_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.col-header_buttons .primary-button {
+    margin: 1.5rem;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+}
+.col-header_buttons .primary-button a {
+    text-decoration: none;
+}
+
+#button-one a{ 
+    color: var(--primay);
+    font-family: var(--fuente-1);
+    font-weight: 600;
+}
+
+#button-two {
+    background-color: transparent;
+    border: 1px solid var(--neutral-1);
+}
+#button-two a {
+    color: var(--neutral-1);
+    font-family: var(--fuente-1);
+    font-weight: 600;
+}
 
 
 
